@@ -1,4 +1,4 @@
-package com.udacity.shoestore
+package com.udacity.shoestore.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
 import androidx.transition.TransitionInflater
+import com.udacity.shoestore.R
 import com.udacity.shoestore.data.model.ShoeListViewModel
 import com.udacity.shoestore.databinding.FragmentShoeDetailBinding
 import com.udacity.shoestore.models.Shoe

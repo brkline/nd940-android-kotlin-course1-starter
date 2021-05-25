@@ -6,4 +6,7 @@
     <dimen name="welcome_default_margin">16dp</dimen>
     <dimen name="instructions_default_margin">16dp</dimen>
     <dimen name="shoe_list_default_margin">16dp</dimen>
+    <dimen name="welcome_default_padding">8dp</dimen>
+    <dimen name="instructions_default_padding">8dp</dimen>
+    <dimen name="item_default_margin">16dp</dimen>
 </resources>

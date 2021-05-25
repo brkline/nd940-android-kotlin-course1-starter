@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--We use a LinearLayout here because the layout is pretty straight
+        forward.  Meaning that each element is laid out in a vertical
+        pattern that doesn't require specific positioning. -->
     <LinearLayout
         android:id="@+id/instructions_linear_layout"
         android:layout_width="match_parent"
@@ -16,6 +19,8 @@
             android:layout_marginLeft="@dimen/instructions_default_margin"
             android:layout_marginEnd="@dimen/instructions_default_margin"
             android:layout_marginRight="@dimen/instructions_default_margin"
+            android:padding="@dimen/instructions_default_padding"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:text="@string/instructions_text1" />
 
         <TextView
@@ -27,6 +32,8 @@
             android:layout_marginTop="@dimen/instructions_default_margin"
             android:layout_marginEnd="@dimen/instructions_default_margin"
             android:layout_marginRight="@dimen/instructions_default_margin"
+            android:padding="@dimen/instructions_default_padding"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:text="@string/instructions_text2" />
 
         <Button
@@ -38,6 +45,7 @@
             android:layout_marginTop="@dimen/instructions_default_margin"
             android:layout_marginEnd="@dimen/instructions_default_margin"
             android:layout_marginRight="@dimen/instructions_default_margin"
-            android:text="@string/instructions_button_text" />
+            android:text="@string/instructions_button_text"
+            android:theme="@style/GoButton"/>
     </LinearLayout>
 </layout>

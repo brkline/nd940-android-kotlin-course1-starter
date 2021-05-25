@@ -4,12 +4,12 @@
     <string name="login_password_text">Password</string>
     <string name="create_account_button_text">Create Account</string>
     <string name="login_button">Login</string>
-    <string name="welcome_text1">TextView</string>
-    <string name="welcome_text2">TextView</string>
+    <string name="welcome_text1">Welcome</string>
+    <string name="welcome_text2">We help you keep track of your shoe inventory. Tap the button below to read the instructions.</string>
     <string name="welcome_instructions_button_text">Instructions</string>
-    <string name="instructions_text1">TextView</string>
-    <string name="instructions_text2">TextView</string>
-    <string name="instructions_button_text">List of Shoes</string>
+    <string name="instructions_text1">Tap the button below to see the current list of shoes.</string>
+    <string name="instructions_text2">If you want to add a shoe, tap on the add button. When adding a shoe, you cannot leave all entries empty.</string>
+    <string name="instructions_button_text">Current Shoes in Inventory</string>
     <string name="shoe_list_content_description_text">Add</string>
     <string name="menu_item_logout">Logout</string>
     <string name="shoe_detail_shoe_name_text">Name</string>
